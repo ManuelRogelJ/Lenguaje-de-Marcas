@@ -53,5 +53,35 @@ li{
     box-shadow: 2px 2px 5px;
     border-radius: 20px;
     background-color: #D3B98D;
+    border-color:blanchedalmond;
 }
 
+.Contacto{
+    text-align: center;
+    background-color:bisque;
+}
+
+.Contacto ul li label input .Nombre{
+    background-color: #D3B98D;
+    color: #D3B98D;
+}
+
+.Footer{
+    display: flex;
+    height: 70px;
+    padding: 3px;
+    align-items:center;
+    margin-left: 140px;
+}
+
+.Footer2{
+    display: flex;
+    align-items:center;
+    margin-left: 140px;
+}
+
+.Footer3{
+    display: flex;
+    align-items:center;
+    margin-left: 140px;
+}
