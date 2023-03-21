@@ -1,27 +1,33 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'PT-Sans', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 10px;
 }
 
+.Imagen1{
+    margin-top: 8px;
+    margin-left: 15px;
+}
 .menu{
     display: flex;
     height: 70px;
-    padding: 15px;
-    align-items: center;
-    justify-content: space-between;
+    padding: 3px;
+    align-items: flex-end;
+    justify-content:flex-end;
 }
 
-.card{
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 15px 35px (0,0,0,0.25);
+.menu a{
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color: black;
 }
-.ImagenTrenzatress{
-    width:20%;
-}
+
+
 button{
     background-color:orangered;
     color:black;
@@ -29,3 +35,23 @@ button{
 li{
     list-style: none;
 }
+
+.Cordelería{
+    background-color: orange;
+}
+.card{
+    display: flex;
+    width: 100%;
+    gap:50px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 80px;
+}
+.card .cards{
+    width: 320px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    background-color: #D3B98D;
+}
+
