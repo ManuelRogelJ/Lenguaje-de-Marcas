@@ -34,7 +34,7 @@ button{
     box-shadow: 2px 2px 5px;
     border-radius: 4px;
     height: 30px;
-    width: 80px;
+    width: 100px;
 }
 button:hover{
     background-color: orangered;
@@ -44,7 +44,16 @@ li{
 }
 
 .Cordelería{
-    background-color: orange;
+    background-color: burlywood;
+    display: flex;
+}
+.Cord{
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+}
+.Imagen2{
+    margin-left: 350px;
 }
 .card{
     display: flex;
@@ -119,4 +128,14 @@ input:hover{
 
 textarea:hover{
     border-color: orangered;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    margin:0;
+    padding: 0;
 }
