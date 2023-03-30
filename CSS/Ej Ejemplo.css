@@ -10,7 +10,6 @@ h1{
 }
 
 .Imagen1{
-    margin-top: 8px;
     margin-left: 15px;
 }
 .menu{
@@ -27,16 +26,29 @@ h1{
     color: black;
 }
 
-
-button{
-    background-color:#ccae72;
-    color:black;
-    box-shadow: 2px 2px 5px;
-    border-radius: 4px;
-    height: 30px;
-    width: 100px;
+header button .Verproductos{
+    padding: 1%;
+    margin: 3% 2%;
+    background: #C29A56;
+    width: fit-content;
+    border-radius:6px;
+    font-size: larger;
+    box-shadow: 8px 10px 10px black;
+    border: solid black 1px;
 }
-button:hover{
+
+.Boton button{
+    margin: 1%;
+    background-color: #C29A56;
+    padding: 1% 2%;
+    border-radius: 6px;
+}
+
+.Boton button:hover{
+    background-color: orangered;
+}
+
+header button .Verproductosr{
     background-color: orangered;
 }
 li{
@@ -138,4 +150,82 @@ body{
 html{
     margin:0;
     padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.logo {
+    max-width: 5rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 140px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
 }

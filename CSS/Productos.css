@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT-Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.Imagen1{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.menu{
+    display: flex;
+    height: 70px;
+    padding: 3px;
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+
+.menu a{
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    margin:0;
+    padding: 0;
+}
